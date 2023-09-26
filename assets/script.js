@@ -81,9 +81,10 @@ var outlineWorkday = [
   reminder:""
 },
   ]
-
+// To get information on header date
   function getHeaderDate(){
-    var currentHeaderDate
+    var currentHeaderDate = moment().format('dddd, MMMM Do');
+    $("#currentDay").text(currentHeaderDate);
   }
 // Added tocheck for local storage
 
