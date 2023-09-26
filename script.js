@@ -1,6 +1,7 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that   
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+// to get information for the date in the header
 var today = moment().format("dddd, MMMM Do YYYY ");
 var now = moment().format("H A");
 
@@ -80,7 +81,7 @@ var outlineWorkday = [
   reminder:""
 },
   ]
-  
+
 // Added tocheck for local storage
 var workEvents = JSON.parse(localStorage.getItem("workDay"));
 if (workEvents) {
