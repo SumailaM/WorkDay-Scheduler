@@ -9,15 +9,15 @@ $("#currentDay").text(today);
 
 // outlineWorkday is used to in each hour of the Workday
 var outlineWorkday = [
-  { time: "9 AM", 
+  { time: "9:00 AM", 
   event: "" },
-{ time: "10 AM", 
+{ time: "10:00 AM", 
   event: "" },
-{ time: "11 AM", 
+{ time: "11:00 AM", 
   event: "" },
-{ time: "12 PM", 
+{ time: "12:00 PM", 
   event: "" },
-{ time: "1 PM", 
+{ time: "1:00 PM", 
   event: "" },
 { time: "2 PM", 
   event: "" },
