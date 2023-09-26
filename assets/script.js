@@ -82,7 +82,11 @@ var outlineWorkday = [
 },
   ]
 
+  function getHeaderDate(){
+    var currentHeaderDate
+  }
 // Added tocheck for local storage
+
 var workEvents = JSON.parse(localStorage.getItem("workDay"));
 if (workEvents) {
   outlineWorkday = workEvents;
